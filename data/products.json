@@ -1,0 +1,62 @@
+var PRODUCTS = {
+  "bed pillow gold": {
+    "image": "bed-pillow-gold.png",
+    "thumb": "bed-pillow-gold__thumb.png",
+    "active": false,
+    "type": "pillow"
+  },
+  "bed pillow pink": {
+    "image": "bed-pillow-pink.png",
+    "thumb": "bed-pillow-pink__thumb.png",
+    "active": false,
+    "type": "pillow"
+  },
+  "bed blanket pink": {
+    "image": "blanket-pink.png",
+    "thumb": "blanket-pink__thumb.png",
+    "active": false,
+    "type": "blanket"
+  },
+  "bed blanket gold": {
+    "image": "blanket-gold.png",
+    "thumb": "blanket-gold__thumb.png",
+    "active": false,
+    "type": "blanket"
+  },
+  "euro sham gold": {
+    "image": "euro-sham-blue.png",
+    "thumb": "euro-sham-blue__thumb.png",
+    "active": false,
+    "type": "sham"
+  },
+  "euro sham pink": {
+    "image": "euro-sham-pink.png",
+    "thumb": "euro-sham-pink__thumb.png",
+    "active": false,
+    "type": "sham"
+  },
+  "good vibes gold": {
+    "image": "good-vibes-gold.png",
+    "thumb": "good-vibes-gold__thumb.png",
+    "active": false,
+    "type": "vibes"
+  },
+  "good vibes pink": {
+    "image": "good-vibes-pink.png",
+    "thumb": "good-vibes-pink__thumb.png",
+    "active": false,
+    "type": "vibes"
+  },
+  "poster blue": {
+    "image": "poster-blue.png",
+    "thumb": "poster-blue__thumb.png",
+    "active": false,
+    "type": "poster"
+  },
+  "poster pink": {
+    "image": "poster-pink.png",
+    "thumb": "poster-pink__thumb.png",
+    "active": false,
+    "type": "poster"
+  }
+}
