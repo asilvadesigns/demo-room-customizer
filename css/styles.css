@@ -230,7 +230,8 @@ p {
   width: 100%;
 }
 
-#sidebar__toggle.btn {
+#sidebar__toggle.btn,
+#sidebar__clear.btn {
   border: 3px solid white;
 }
 

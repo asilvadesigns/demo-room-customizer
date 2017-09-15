@@ -35,11 +35,13 @@ var App = (function() {
         var productActive = PRODUCTS[product].active;
       }
 
-      var ROOM_ITEM = document.createElement('DIV');
-      ROOM_ITEM.setAttribute('class', 'item');
+      var isActive = '';
       if (productActive) {
-        ROOM_ITEM.setAttribute('class', 'item active');
+        isActive = ' active';
       }
+
+      var ROOM_ITEM = document.createElement('DIV');
+      ROOM_ITEM.setAttribute('class', 'item' + isActive);
       ROOM_ITEM.setAttribute('style', 'background-image: url(' + IMG_PATH + productImage + ');');
       ROOM_ITEM.setAttribute('data-type', productType);
       ROOM_ITEM.setAttribute('data-index', index);
@@ -47,10 +49,7 @@ var App = (function() {
 
       var MENU_ITEM = document.createElement('BUTTON');
       MENU_ITEM.innerHTML = product;
-      MENU_ITEM.setAttribute('class', 'menu-item');
-      if (productActive) {
-        MENU_ITEM.setAttribute('class', 'menu-item active');
-      }
+      MENU_ITEM.setAttribute('class', 'menu-item' + isActive);
       MENU_ITEM.setAttribute('style', 'background-image: url(' + IMG_PATH + productThumb + ');');
       MENU_ITEM.setAttribute('onclick', 'App.toggle(this)');
       MENU_ITEM.setAttribute('data-type', productType);
