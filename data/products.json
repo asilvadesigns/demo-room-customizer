@@ -58,5 +58,11 @@ var PRODUCTS = {
     "thumb": "poster-pink__thumb.png",
     "active": false,
     "type": "poster"
+  },
+  "cake": {
+    "image": "birthday-cake-02.png",
+    "thumb": "birthday-cake-02.png",
+    "active": false,
+    "type": "cake"
   }
 }
